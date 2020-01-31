@@ -1,0 +1,106 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  background-color: #060d18;
+  box-shadow: -10px 0 20px black;
+}
+
+.k-row {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 0px;
+}
+
+.k-mid {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.k-top {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.k-bottom {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.k-btn {
+  flex-grow: 1;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #d72551;
+  color: white;
+  outline: none;
+  margin: 0 2px;
+  transition: all ease-out 100ms;
+}
+
+.k-btn:active {
+  background-color: transparent;
+  color: #ff0040;
+}
+
+.kc-btn:active {
+  background-color: transparent;
+  color: #ff0040;
+}
+.k-space:active {
+  background-color: #ff004013;
+}
+
+.k-space {
+  flex-grow: 1;
+  margin: 2px 120px;
+  background-color: #d72551;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  transition: all ease-out 100ms;
+}
+
+.kc-btn {
+  flex-grow: 1;
+  height: 65px;
+  color: white;
+  font-size: 25px;
+  background-color: #d72551;
+  padding: 0px 50px;
+  outline: none;
+  border: none;
+  margin: 4px 2px 2px;
+  transition: all ease-out 100ms;
+  text-align: center;
+}
+
+.k-display {
+  flex-grow: 10;
+  height: 70px;
+  outline: none;
+  border: none;
+  background-color: #060d18;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.k-controls {
+  display: flex;
+  align-items: center;
+}
+
+.hide-button {
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  background-color: #d72551;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 25px;
+}
